@@ -1,6 +1,4 @@
-
-function AccioJob() {
-    alert(arguments.callee.name);
+function func() {
+  alert(arguments.callee.name);
 }
-
-AccioJob();     
+func(); 
