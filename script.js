@@ -1,4 +1,5 @@
-function func() {
+function functionName() {
   alert(arguments.callee.name);
 }
-func(); 
+
+functionName(); 
